@@ -1,3 +1,3 @@
-a really simple presence system, the kind of thing that tells you if your chat friends are online.
+a really simple presence system, the basis for the thing that tells you if your chat friends are online and keeps everyone updated on status and presence changes.
 
-this is the kind of thing Go can do using built in features (channels, goroutines, maps) in very little code.
+an example of a problem that can be solved with Go's built-in features: channels, goroutines, maps.
