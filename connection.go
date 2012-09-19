@@ -22,8 +22,6 @@ func wsHandler(ws *websocket.Conn) {
 		ws: ws,
 		c:  make(chan string),
 	}
-	log.Printf("conn: %v", conn)
-	log.Printf("conn.id: %v", conn.id)
 
 	// start listening for incoming messages
 	conn.listen()
